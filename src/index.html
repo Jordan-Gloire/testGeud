@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Eway</title>
+</head>
+<body>
+
+    <header>
+        <nav class="bg-transparent">
+            <div class="container mx-auto flex flex-col justify-between items-center lg:flex-row">
+                <div class="container mx-auto flex justify-between items-center p-5">
+                    <button id="menu-toggle" class="block lg:hidden focus:outline-none">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                            </path>
+                        </svg>
+                    </button>
+                    <img src="/src/pictures/logo.png" alt="" class="w-24 h-24 mylogo">
+                </div>
+                <ul id="menu" class="hidden lg:flex gap-10 text-center pb-2 text-xl px-5">
+                    <li><a href="#home" class="text-white hover:text-gray-300 ">Home</a></li>
+                    <li><a href="#about" class="text-white hover:text-gray-300">About</a></li>
+                    <li><a href="#departements" class="text-white hover:text-gray-300">Departments</a></li>
+                    <li><a href="#team" class="text-white hover:text-gray-300">Team</a></li>
+                    <li><a href="#contact" class="text-white hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mx-auto flex flex-col justify-center items-center h-screen">
+            <h1 class="text-white text-7xl font-bold">Eway</h1>
+            <p class="text-white text-2xl max-w-xl pt-3 text-center px-8">Programme d'éducation entrepreneuriale développé par Eway
+            Département des programmes spéciaux</p>
+            <button href="#about" class="btn mt-10 bg-orange-600 text-white">Savoir plus</button>
+        </div>
+    </header>
+    <div id="home" data-aos="fade-up" data-aos-duration="3000">
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+                <div class="mt-10 bg-gray-50 flex flex-col justify-center items-center md:flex-col lg:flex-row">
+                    <div class="">
+                        <img src="/src/pictures/home (1).jpg" alt="Gued" class="p-8">
+                    </div>
+                    <div class="px-10">
+                        <p>
+                            Le Congo est confronté à un certain nombre de
+                            défis qui ne peuvent être relevés que si elle
+                            compte des citoyens innovants, instruits et
+                            entreprenants qui, quel que soit leur parcours de
+                            vie, ont l'esprit et la curiosité nécessaires pour
+                            penser de manière nouvelle, et le courage de se
+                            rencontrer et de s'adapter aux défis auxquels ils
+                            sont confrontés. De plus, avec de nombreuses
+                            opportunités d’innover et de créer les emplois
+                            nécessaires, aura besoin d'un plus grand nombre
+                            de jeunes désireux et capables de devenir
+                            entrepreneurs, des jeunes qui lanceront et
+                            développeront avec succès leurs propres
+                            entreprises commerciales ou sociales, ou qui
+                            deviendront des innovateurs dans les
+                            organisations plus larges dans lesquelles ils
+                            travaillent. L’éducation étant essentielle pour
+                            façonner les attitudes, les compétences et la
+                            culture des jeunes, il est essentiel que
+                            l’éducation à l’entrepreneuriat soit abordée dès
+                            le plus jeune âge. L’éducation à
+                            l’entrepreneuriat est essentielle non seulement
+                            pour façonner l’état d’esprit des jeunes, mais
+                            également pour leur fournir les compétences et
+                            les connaissances essentielles au
+                            développement d’une culture entrepreneuriale.
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <font></font>
+            <div id="item2" class="carousel-item w-full">
+                <div class=" bg-gray-50 flex flex-col justify-center items-center md:flex-col lg:flex-row">
+                
+                    <div class="px-10">
+                        <p>
+                            L’entrepreneuriat est l’endroit où les courageux
+                            relèvent des défis qui les dépassent. <br> C’est là que
+                            les problèmes mondiaux sont résolus et que les
+                            besoins locaux sont satisfaits. <br> C’est là que se
+                            croisent toutes les compétences et toutes les
+                            expériences, et c’est là que <br> la pensée créative ne
+                            s’arrête jamais. Un tel paysage est notre passion
+                            a Eway <br> pour l'innovation de l’éducation et
+                            l'entrepreneuriat <br> interdisciplinaires.
+                            Le développement de notre pays est
+                            conditionné par l’entrepreneuriat. <br> Nous
+                            voulons libérer le pouvoir de nos jeunes
+                            et accompagner ceux qui <br> désirent créer un
+                            impact positif dans notre communauté.
+                            Avec le programme E-RISE, nous
+                            envisageons doter la jeunesse avec une
+                            connaissance aiguisé sur l’entrepreneuriat
+                            agricole.
+                
+                        </p>
+                    </div>
+                    <div class="">
+                        <img src="/src/pictures/home (2).jpg" alt="Gued" class="p-8 w-screen">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center w-full py-2 gap-2">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+        </div>
+    </div>
+
+    <div id="about" class=" mx-8" data-aos="fade-down" data-aos-duration="3000">
+        <h1 class="text-center font-bold py-2 text-2xl">Qui sommes-nous?</h1>
+        <div class="flex flex-col justify-center items-center gap-4 md:flex-col lg:flex-row">
+           
+            <div class="mesImgMobile flex justify-center gap-4 pt-4">
+                <div class="space-y-3 flex flex-col">
+                    <img src="/src/pictures/about (2).jpg" alt="" class="w-screen">
+                                        <img src="/src/pictures/pexel.jpg" alt="" class="w-screen">
+
+                </div>
+                <div class=" mt-8 space-y-3">
+                                        <img src="/src/pictures/about (3).jpg" alt="" class="w-screen">
+                                        <img src="/src/pictures/top (2).jpg" alt="" class="w-screen">
+
+
+                </div>
+            </div>
+            <div class="text pt-8 mesImgMobile " data-aos="fade-right" data-aos-duration="3000">
+                <p>Notre organisation est convaincue que nous sommes
+                responsables de tenir entre nos mains les rêves des autres. Cela
+                nous donne un but, c'est la raison pour laquelle notre équipe
+                dynamique se réveille chaque matin. Le résultat de nos efforts
+                est fantastique, nous concevons des programmes éducatifs
+                spéciaux pour renforcer notre communauté ainsi nous croyons
+                au pouvoir de la collaboration pour y parvenir.
+                Sachant que nous avons la responsabilité de porter les rêves des
+                autres, notre équipe cherche continuellement à soutenir les
+                écoles, les universités et tout autre organisation dans le cadre
+                d'un partenariat efficace avec l'objectif d'avoir un impact
+                considérable sur la vie de nos communautés à long terme.
+                Le nouveau millénaire se caractérise par la présence de défis
+                sans précédent. Et aucun de ces problèmes ne pourra être résolu
+                de manière isolée.
+                Nous sommes déterminés a utiliser l'éducation et
+                l'entrepreneuriat ainsi que la collaboration intersectorielle pour
+                relever les défis que notre pays fait face pour contribuer
+                efficacement a son développement.</p>
+            </div>
+        </div>
+    </div>
+<div id="departements" data-aos="fade-right" data-aos-duration="3000">
+    <div>
+        <h1 class="text-center py-4 font-bold pb-8 text-2xl">Nos départements</h1>
+    </div>
+    <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5 mx-8">
+        <div class="shadow-lg" data-aos="fade-right" data-aos-duration="3000">
+            <div class="image-container">
+                <img src="/src/pictures/agriculture.jpg" alt="" class="rounded-t-lg">
+            </div>
+            <h1 class="text-2xl font-bold pt-2 text-orange-600 px-2">Agriculture</h1>
+            <p class="px-2 py-2">Il contribue à la promotion et à la sécurisation des investissements agricoles, à travers le suivi et l'assurance
+            agricole. Ce département au sein de Eway a une synergie des agriculteurs locaux et assure leur développement avec une
+            formation continue. Travaille également avec de nombreux individus et organisations dans le domaine de l'agriculture.</p>
+        </div>
+        <div class="shadow-lg" data-aos="fade-left" data-aos-duration="3000">
+            <div class="image-container">
+                <img src="/src/pictures/techno.jpg" alt="" class="rounded-t-lg">
+            </div>
+            <h1 class="text-2xl font-bold pt-2 text-orange-600 px-2">Technologies</h1>
+            <p class="px-2 py-2">Le département Sciences et Technologies de Eway compte plusieurs innovations passionnantes sur les sciences de
+            l'environnement et l'informatique. Ce département a pour ambition d'accompagner les changements via les technologies et
+            l'innovation dans différents domaines.
+</p>
+        </div>
+        <div class="shadow-lg" data-aos="fade-right" data-aos-duration="3000">
+            <div class="image-container">
+                <img src="/src/pictures/top (1).jpg" alt="" class="rounded-t-lg">
+            </div>
+            <h1 class="text-2xl font-bold pt-2 text-orange-600 px-2">Education</h1>
+            <p class="px-2 py-2">Il gère les programmes éducatifs spéciaux, la gestion et l'amélioration continues du système éducatif Eway pour répondre
+            aux besoins de la société et préparer les jeunes à l'avenir.</p>
+        </div>
+        <div class="shadow-lg rounded-b-lg" data-aos="fade-left" data-aos-duration="3000">
+            <div class="image-container">
+                <img src="/src/pictures/money.jpg" alt="" class="rounded-t-lg">
+            </div>
+            <h1 class="text-2xl font-bold pt-2 text-orange-600 px-2">Finances</h1>
+            <p class="px-2 py-2">Le département des finances est chargé de la mobilisation et de l'administration des ressources financières de
+            l'organisation. L'objectif de ce département est d'aider la communauté locale à se développer financièrement et de créer
+            un fonds de capital pour le développement rural.</p>
+        </div>
+    </div>
+</div>
+ <div id="team" class="my-4  bg-white w-screen">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-3" data-aos="fade-up" data-aos-duration="3000">
+                <div class="bg-black rounded-lg">
+                    <img src="/src/pictures/team (1).jpg" alt="Gued" class="rounded-full p-6">
+                    <div class="text-center py-3 text-white">
+                        <p class="font-bold">Guedalia OBAMBI</p>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nostrum!</p>
+                    </div>
+                </div>
+                <div class="bg-orange-600 rounded-lg">
+                    <img src="/src/pictures/team (1).jpg" alt="Gued" class="rounded-full p-6">
+                    <div class="text-center py-3 text-white">
+                        <p class="font-bold">Guedalia OBAMBI</p>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nostrum!</p>
+                    </div>
+                </div>
+                <div class="bg-orange-600 rounded-lg" data-aos="fade-right" data-aos-duration="3000">
+                    <img src="/src/pictures/team (1).jpg" alt="Gued" class="rounded-full p-6">
+                    <div class="text-center py-3 text-white">
+                        <p class="font-bold">Guedalia OBAMBI</p>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nostrum!</p>
+                    </div>
+                </div>
+                <div class="bg-black rounded-lg" data-aos="fade-left" data-aos-duration="3000">
+                    <img src="/src/pictures/team (1).jpg" alt="Gued" class="rounded-full p-6">
+                    <div class="text-center py-3 text-white">
+                        <p class="font-bold">Guedalia OBAMBI</p>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nostrum!</p>
+                    </div>
+                </div>
+    </div>
+        </div>
+    </div>
+
+    <div id="contact" class="flex justify-center items-center">
+        <div class="form-container">
+            <form class="form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required="">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can We Help You?</label>
+                    <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+                </div>
+                <button class="form-submit-btn" type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="bg-orange-600 my-5 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-center">
+                <div class="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
+                    <p>&copy; 2024 Eway. Tous droits réservés.</p>
+                </div>
+                <div class="w-full md:w-1/2 text-center md:text-right">
+                    <ul class="flex justify-center md:justify-end space-x-4">
+                        <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                        <li><a href="#" class="hover:text-gray-400">Services</a></li>
+                        <li><a href="#" class="hover:text-gray-400">About</a></li>
+                        <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="/src/script.js"></script>
+
+</body>
+</html>
